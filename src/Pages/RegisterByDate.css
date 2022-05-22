@@ -1,0 +1,107 @@
+.RegisterByDate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+.upperArea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left:8%;
+  margin-right:5%;
+  width: 100%;
+  padding: 5%;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.12);
+}
+.headline {
+  display: flex;
+  align-self: baseline;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  margin-right: 26%;
+  color: #00406b;
+}
+.Arrow {
+  display: flex;
+  align-self: flex-start;
+}
+.Arrow:active {
+  display: flex;
+  align-self: flex-start;
+  box-shadow: 0px 1px 4px rgba(51, 51, 51, 0.25);
+}
+
+.calendar {
+  display: flex;
+  align-items: center;
+}
+.lowerArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-self: center;
+}
+.howManyArea {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  margin-bottom:15%;
+  padding-bottom:70%;
+  padding-right:60%;
+  padding-left:60%;
+  background: #f2f2f2;
+  border-radius: 4px;
+}
+.amount{
+  color: #00406b;
+  display: flex;
+  font-size: 4vw;
+  align-self: center;
+  font-family: "Arial";
+  font-weight: bold; 
+  padding-left: 100%;
+  padding-right: 100%;
+  white-space: nowrap;
+  /* margin-top:10%; */
+}
+.attendance {
+  font-family: "Arial";
+  /* margin-top:30%; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5vw;
+  display: flex;
+  color: #2b8fff;
+  text-justify: distribute;
+  padding-left: 0%;
+  padding-right: 0%;
+  align-self: center;
+  justify-self: baseline;
+  white-space: nowrap;
+}
+.attendance:focus{
+  color:darkblue;
+  text-shadow: 0.1px 0.1px 0.1px black;
+}
+.attendance:active{
+  color:darkblue;
+}
+.continue {
+  display: flex;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5vw;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5% 30%;
+  background: #2b8fff;
+  box-shadow: 0px 1px 4px rgba(51, 51, 51, 0.25);
+  border-radius: 20px;
+}
